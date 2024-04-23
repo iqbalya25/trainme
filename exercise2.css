@@ -1,0 +1,211 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #C780FA;
+    width: 100%;
+}
+
+/* Navigation Bar */
+
+nav {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #BEADFA;
+}
+
+.logo1 {
+    flex: 1;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.logo1 img{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+.menu {
+    flex: 2;
+    background-color: #BEADFA;
+    color: #fff;
+    align-items: center;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+.menu ul li {
+    padding: 0px 20px 0px 20px;
+    background-color: #BEADFA;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.menu ul li a:hover {
+    color: #333;
+    font-weight: bold;
+
+}
+
+.search {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #BEADFA;
+}
+
+.search input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.search button {
+    padding: 5px 10px;
+    background-color: #BEADFA;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logo2 {
+    flex: 1;
+    text-align: right;
+    padding-right: 20px;
+    
+}
+.logo2 img{
+    width: 44px;
+    height: 44px;
+}
+
+/* Main Section */
+
+main{
+    background-color: #8E8FFA;
+}
+
+.mainheader h1{
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    padding-top: 100px;
+}
+
+.subheader{
+    display: flex;
+    justify-content: center;
+}
+
+.subheader h2{
+    font-family:'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    color: #fff;
+    margin-top: 0px;
+    width: 60%;
+}
+.text{
+    display: flex;
+    justify-content: center;
+}
+
+.text p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #333;
+    width: 60%;
+}
+
+/* Motto */
+
+.motto{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.motto h1{
+    font-size: 50px;
+    color: #fff;
+    text-transform: lowercase;
+}
+
+/* Reviewer Section */
+
+.review-container {
+    display: flex; /* Use flexbox */
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+}
+
+.reviews .titlereview {
+    flex: 1;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px; /* Add margin between reviews */
+    border: 3px solid black; /* Add border */
+    border-radius: 20px; /* Add border radius for rounded corners */
+    background-color: aliceblue;
+    padding: 10px; /* Add padding */
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.review img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+
+.review p{
+    text-align: justify;
+    font-style: italic;
+    width: 80%;
+    font-weight: bold;
+}
+
+.review .reviewer{
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    /* font-weight: bold; */
+} 

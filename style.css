@@ -7,7 +7,6 @@ font-family: 'Open Sans', sans-serif; */
 
 body {
   background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
-
   min-height: 100vh;
 }
 
@@ -20,26 +19,35 @@ body {
 /* Check margin */
 nav {
   font-family: 'Mulish', sans-serif;
-  color: #000;
+  font-weight: bold;
+  color: #616161;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 /* Check list styling */
 nav ul {
   display: flex;
   gap: 48px;
+  list-style: none;
+  
 }
 
 /* Check list link style */
 nav ul li a {
-
+  text-decoration: none;
+  transition: color 0.3s, font-weight 0,3s;
 }
 
 /* Make text bold on hover */
+nav ul li a:visited {
+  color: #616161;
+}
 nav ul li a:hover {
-  
+  color: #000;
+  font-weight: bold;
 }
 
 
@@ -50,34 +58,64 @@ main {
   margin-bottom: 88px;
 }
 
+.container {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  justify-content: space-between;
+  width: 100%;
+}
+
+.text {
+  flex: 1; 
+}
+
+.images {
+  flex: 1;
+  display: flex;
+}
+
 /* Check margin and font styling */
 .text h1 {
   font-family: 'Mulish', sans-serif;
+  margin: 30px 0px 0px 0px;
+
 }
 
 /* Check font styling */
 .text h1 span {
+  color: #69B99D;
 }
 
 /* Check font styling */
 .text p {
-  font-family: 'Open Sans', sans-serif; 
+  font-family: 'Open Sans', sans-serif;
+  margin: 16px 0px 48px 0px;
 }
 
 /* Check font styling and make sure the button is rounded */
 .text button {
+  margin: 0px 0px 30px 0px;
+  border: none;
+  padding: 14px 32px 15px 32px;
   font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  align-items: center;
+  background-color: #69B99D;
+  color: #FFFFFF;
   display: flex;
   gap: 8px;
+  transition: background-color 0.3s;
 }
 
 /* Handle when user hover on the button */
 .text button:hover {
+  background-color: #4F8979; /* Change color on hover */
 }
 
 /* Check the text styling */
 footer {
-  font-family: 'Open Sans', sans-serif; 
+  font-family: 'Open Sans', sans-serif;
+  text-align: center; 
 }
 
 /* Check the text styling */
